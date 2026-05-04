@@ -24,7 +24,7 @@ int main(void)
         }
     }
 
-    if(k!=true) { 
+    if(!k){ 
         printf("None\n");
     }
     return 0;
